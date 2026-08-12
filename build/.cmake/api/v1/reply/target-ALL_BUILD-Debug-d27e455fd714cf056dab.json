@@ -1,0 +1,57 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"external/raylib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "glfw::@0caa76eb0594e07c8f96"
+		},
+		{
+			"id" : "raylib::@e0062cae9a75ca0a10b0"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@926e36d08107a5f9f074",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "glfw::@0caa76eb0594e07c8f96"
+		},
+		{
+			"id" : "raylib::@e0062cae9a75ca0a10b0"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/raylib",
+		"source" : "external/raylib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

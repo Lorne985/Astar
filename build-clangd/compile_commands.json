@@ -1,0 +1,176 @@
+[
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -ID:\\Code\\Astar\\external\\raylib\\src -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /FoCMakeFiles\\astar_visualizer.dir\\src\\main.cpp.obj /FdCMakeFiles\\astar_visualizer.dir\\ /FS -c D:\\Code\\Astar\\src\\main.cpp",
+  "file": "D:/Code/Astar/src/main.cpp",
+  "output": "D:/Code/Astar/build-clangd/CMakeFiles/astar_visualizer.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raudio.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\raudio.c",
+  "file": "D:/Code/Astar/external/raylib/src/raudio.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\rcore.c",
+  "file": "D:/Code/Astar/external/raylib/src/rcore.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rmodels.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\rmodels.c",
+  "file": "D:/Code/Astar/external/raylib/src/rmodels.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rshapes.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\rshapes.c",
+  "file": "D:/Code/Astar/external/raylib/src/rshapes.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rtext.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\rtext.c",
+  "file": "D:/Code/Astar/external/raylib/src/rtext.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rtextures.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\rtextures.c",
+  "file": "D:/Code/Astar/external/raylib/src/rtextures.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -ID:\\Code\\Astar\\external\\raylib\\src -external:ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /Foexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\utils.c.obj /Fdexternal\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c D:\\Code\\Astar\\external\\raylib\\src\\utils.c",
+  "file": "D:/Code/Astar/external/raylib/src/utils.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/CMakeFiles/raylib.dir/utils.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\context.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/context.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\init.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/init.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\input.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/input.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\monitor.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/monitor.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\platform.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/platform.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\vulkan.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/vulkan.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\window.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/window.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\egl_context.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/egl_context.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\osmesa_context.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/osmesa_context.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\null_init.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/null_init.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\null_monitor.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/null_monitor.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\null_window.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/null_window.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\null_joystick.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/null_joystick.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_module.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_module.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_time.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_time.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_thread.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_thread.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_init.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_init.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_joystick.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_joystick.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_monitor.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_monitor.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\win32_window.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/win32_window.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "D:/Code/Astar/build-clangd",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe\"  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\include -ID:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src -ID:\\Code\\Astar\\build-clangd\\external\\raylib\\raylib\\external\\glfw\\src /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Foexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /Fdexternal\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\ /FS -c D:\\Code\\Astar\\external\\raylib\\src\\external\\glfw\\src\\wgl_context.c",
+  "file": "D:/Code/Astar/external/raylib/src/external/glfw/src/wgl_context.c",
+  "output": "D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+}
+]

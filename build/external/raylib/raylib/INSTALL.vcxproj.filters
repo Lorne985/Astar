@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\Astar\build\CMakeFiles\e5c3e285be6bd0cd474f83605aa667c1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A44AE441-7A22-334B-9C7B-113B8B17B2CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

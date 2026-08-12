@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Code/Astar/build-clangd/cmake_install.cmake",
+		"D:/Code/Astar/build-clangd/external/raylib/cmake_install.cmake",
+		"D:/Code/Astar/build-clangd/external/raylib/raylib/cmake_install.cmake",
+		"D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/cmake_install.cmake",
+		"D:/Code/Astar/build-clangd/external/raylib/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

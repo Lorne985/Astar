@@ -1,0 +1,10 @@
+^D:\CODE\ASTAR\BUILD\CMAKEFILES\336DBFBDA5D56B2931A47F61825E720C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/Astar -BD:/Code/Astar/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code/Astar/build/astar_visualizer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

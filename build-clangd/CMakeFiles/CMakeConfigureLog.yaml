@@ -1,0 +1,2571 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/cc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/cc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/cc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/gcc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/gcc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/gcc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/cl.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/cl.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/cl"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/bcc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/bcc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/bcc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/xlc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/xlc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/xlc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/icx.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/icx.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/icx"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/clang.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/clang.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/clang"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/cc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/cc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/cc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/gcc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/gcc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/gcc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/cl.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/cl.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/cl"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/bcc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/bcc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/bcc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/xlc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/xlc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/xlc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/icx.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/icx.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/icx"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/clang.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/clang.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/cc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/cc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/cc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/cl.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/cl.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/cl"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/bcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/bcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/bcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/xlc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/xlc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/xlc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/icx.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/icx.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/icx"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/clang.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/clang.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/clang"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xlc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xlc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xlc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/gcc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/gcc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/gcc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥淟IBCMT.lib鈥?
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Code/Astar/build-clangd/CMakeFiles/4.4.2/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1379 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:277 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\Code\\Astar\\build-clangd\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "娉ㄦ剰: 鍖呭惈鏂囦欢:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.com"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.exe"
+      - "C:/Program Files/CorpLink/current/tools/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.com"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.com"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.com"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Zed/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/CorpLink/current/tools/mt.com"
+      - "C:/Program Files/CorpLink/current/tools/mt.exe"
+      - "C:/Program Files/CorpLink/current/tools/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/mt"
+      - "D:/Program Files (x86)/Trae CN/bin/mt.com"
+      - "D:/Program Files (x86)/Trae CN/bin/mt.exe"
+      - "D:/Program Files (x86)/Trae CN/bin/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/mt.com"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/mt.exe"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/mt"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/mt.com"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/mt.exe"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/mt"
+      - "D:/Program Files (x86)/Zed/bin/mt.com"
+      - "D:/Program Files (x86)/Zed/bin/mt.exe"
+      - "D:/Program Files (x86)/Zed/bin/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/mt"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/mt.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/mt.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/mt"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/mt.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/mt.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/c++.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/c++.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/c++"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/g++.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/g++.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/g++"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥淟IBCMT.lib鈥?
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Code/Astar/build-clangd/CMakeFiles/4.4.2/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1379 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:277 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\Code\\Astar\\build-clangd\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "娉ㄦ剰: 鍖呭惈鏂囦欢:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.com"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.exe"
+      - "C:/Program Files/CorpLink/current/tools/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.com"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.com"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.com"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Zed/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/astar_visualizer/bin/"
+      - "C:/Program Files (x86)/astar_visualizer/sbin/"
+      - "C:/Program Files (x86)/astar_visualizer/"
+    searched_directories:
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/CorpLink/current/tools/rc.com"
+      - "C:/Program Files/CorpLink/current/tools/rc.exe"
+      - "C:/Program Files/CorpLink/current/tools/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/rc"
+      - "D:/Program Files (x86)/Trae CN/bin/rc.com"
+      - "D:/Program Files (x86)/Trae CN/bin/rc.exe"
+      - "D:/Program Files (x86)/Trae CN/bin/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/rc.com"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/rc.exe"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/rc"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/rc.com"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/rc.exe"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/rc"
+      - "D:/Program Files (x86)/Zed/bin/rc.com"
+      - "D:/Program Files (x86)/Zed/bin/rc.exe"
+      - "D:/Program Files (x86)/Zed/bin/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/rc"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/rc.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/rc.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/rc"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/rc.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/rc.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/astar_visualizer/bin/rc.com"
+      - "C:/Program Files (x86)/astar_visualizer/bin/rc.exe"
+      - "C:/Program Files (x86)/astar_visualizer/bin/rc"
+      - "C:/Program Files (x86)/astar_visualizer/sbin/rc.com"
+      - "C:/Program Files (x86)/astar_visualizer/sbin/rc.exe"
+      - "C:/Program Files (x86)/astar_visualizer/sbin/rc"
+      - "C:/Program Files (x86)/astar_visualizer/rc.com"
+      - "C:/Program Files (x86)/astar_visualizer/rc.exe"
+      - "C:/Program Files (x86)/astar_visualizer/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/astar_visualizer"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/astar_visualizer"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-9krilc"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-9krilc"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-9krilc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_149b6
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_149b6.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_149b6.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCompilerABI.h
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_149b6.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_149b6.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_149b6.exe /implib:cmTC_149b6.lib /pdb:cmTC_149b6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_149b6.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_149b6.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_149b6.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_149b6.exe /implib:cmTC_149b6.lib /pdb:cmTC_149b6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_149b6.dir/manifest.res CMakeFiles\\cmTC_149b6.dir/manifest.rc" failed (exit code 0) with the following output:\x0d
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-b523n9"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-b523n9"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-b523n9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_769d6
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_769d6.dir\\testCCompiler.c.obj /FdCMakeFiles\\cmTC_769d6.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-b523n9\\testCCompiler.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_769d6.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_769d6.dir\\testCCompiler.c.obj  /out:cmTC_769d6.exe /implib:cmTC_769d6.lib /pdb:cmTC_769d6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_769d6.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_769d6.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_769d6.dir\\testCCompiler.c.obj  /out:cmTC_769d6.exe /implib:cmTC_769d6.lib /pdb:cmTC_769d6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_769d6.dir/manifest.res CMakeFiles\\cmTC_769d6.dir/manifest.rc" failed (exit code 0) with the following output:\x0d
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/astar_visualizer"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS
+      Id flags:  
+      
+      The output was:
+      0
+      鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Code/Astar/build-clangd/CMakeFiles/4.4.2/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1379 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:277 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\Code\\Astar\\build-clangd\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "娉ㄦ剰: 鍖呭惈鏂囦欢:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/astar_visualizer"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.com"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.exe"
+      - "C:/Program Files/CorpLink/current/tools/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.com"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.com"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.com"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Zed/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/astar_visualizer"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/astar_visualizer"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Code/Astar/build-clangd/CMakeFiles/4.4.2/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1379 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:277 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\Code\\Astar\\build-clangd\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "娉ㄦ剰: 鍖呭惈鏂囦欢:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CorpLink/current/tools/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/"
+      - "D:/Program Files (x86)/Trae CN/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/"
+      - "D:/Program Files (x86)/Zed/bin/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.codex/tmp/arg0/codex-arg0p4GxfO/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.com"
+      - "C:/Program Files/CorpLink/current/tools/lld-link.exe"
+      - "C:/Program Files/CorpLink/current/tools/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cargo/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.com"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Trae CN/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft VS Code/bin/lld-link"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.com"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Program Files (x86)/cursor/resources/app/bin/lld-link"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.com"
+      - "D:/Program Files (x86)/Zed/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Zed/bin/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/lld-link"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.com"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link.exe"
+      - "C:/Users/\u5218\u8fb0\u9f99/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76/lld-link"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.codex\\tmp\\arg0\\codex-arg0p4GxfO"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CorpLink\\current\\tools"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cargo\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "d:\\Program Files (x86)\\Trae CN\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files (x86)\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\cursor\\resources\\app\\bin"
+        - "D:\\Program Files (x86)\\Zed\\bin"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\\u5218\u8fb0\u9f99\\AppData\\Local\\OpenAI\\Codex\\bin\\2e371a028d4fba76"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/astar_visualizer"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-1ffbjg"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-1ffbjg"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-1ffbjg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_85f86
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_85f86.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_85f86.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCompilerABI.h
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_85f86.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_85f86.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_85f86.exe /implib:cmTC_85f86.lib /pdb:cmTC_85f86.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_85f86.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_85f86.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_85f86.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_85f86.exe /implib:cmTC_85f86.lib /pdb:cmTC_85f86.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FINAL LINK: command "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_85f86.dir\\CMakeCCompilerABI.c.obj /out:cmTC_85f86.exe /implib:cmTC_85f86.lib /pdb:cmTC_85f86.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_85f86.dir/intermediate.manifest CMakeFiles\\cmTC_85f86.dir/manifest.res" failed (exit code 1168) with the following output:\x0d
+        LINK : fatal error LNK1168: 鏃犳硶鎵撳紑 cmTC_85f86.exe 杩涜鍐欏叆\x0d\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-4o9pzg"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-4o9pzg"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-4o9pzg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0c18c
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0c18c.dir\\testCCompiler.c.obj /FdCMakeFiles\\cmTC_0c18c.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-4o9pzg\\testCCompiler.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_0c18c.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0c18c.dir\\testCCompiler.c.obj  /out:cmTC_0c18c.exe /implib:cmTC_0c18c.lib /pdb:cmTC_0c18c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-mrrz4s"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-mrrz4s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-mrrz4s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_437cb
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_437cb.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_437cb.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCompilerABI.h
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_437cb.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_437cb.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_437cb.exe /implib:cmTC_437cb.lib /pdb:cmTC_437cb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_437cb.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_437cb.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_437cb.exe /implib:cmTC_437cb.lib /pdb:cmTC_437cb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "external/raylib/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "external/raylib/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "external/raylib/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-jwdu82"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-jwdu82"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Code/Astar/external/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-jwdu82'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_25b86
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd   -Werror=pointer-arith /showIncludes /FoCMakeFiles\\cmTC_25b86.dir\\src.c.obj /FdCMakeFiles\\cmTC_25b86.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-jwdu82\\src.c
+        FAILED: CMakeFiles/cmTC_25b86.dir/src.c.obj 
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd   -Werror=pointer-arith /showIncludes /FoCMakeFiles\\cmTC_25b86.dir\\src.c.obj /FdCMakeFiles\\cmTC_25b86.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-jwdu82\\src.c
+        cl: 鍛戒护琛?error D8021 :鏃犳晥鐨勬暟鍊煎弬鏁扳€?Werror=pointer-arith鈥?
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "external/raylib/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-ipmi01"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-ipmi01"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Code/Astar/external/raylib/cmake;D:/Code/Astar/external/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-ipmi01'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ba5c7
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ba5c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_ba5c7.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-ipmi01\\src.c
+        FAILED: CMakeFiles/cmTC_ba5c7.dir/src.c.obj 
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ba5c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_ba5c7.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-ipmi01\\src.c
+        D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-ipmi01\\src.c(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "external/raylib/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-x8gzl1"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-x8gzl1"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Code/Astar/external/raylib/cmake;D:/Code/Astar/external/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-x8gzl1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9bbd3
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCHECK_FUNCTION_EXISTS=pthread_create -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_9bbd3.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_9bbd3.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-x8gzl1\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_9bbd3.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9bbd3.dir\\CheckFunctionExists.c.obj  /out:cmTC_9bbd3.exe /implib:cmTC_9bbd3.lib /pdb:cmTC_9bbd3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_9bbd3.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_9bbd3.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9bbd3.dir\\CheckFunctionExists.c.obj  /out:cmTC_9bbd3.exe /implib:cmTC_9bbd3.lib /pdb:cmTC_9bbd3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9bbd3.dir\\CheckFunctionExists.c.obj /out:cmTC_9bbd3.exe /implib:cmTC_9bbd3.lib /pdb:cmTC_9bbd3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9bbd3.dir/intermediate.manifest CMakeFiles\\cmTC_9bbd3.dir/manifest.res" failed (exit code 1104) with the following output:\x0d
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "external/raylib/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-t7it3y"
+      binary: "D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-t7it3y"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Code/Astar/external/raylib/cmake;D:/Code/Astar/external/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Code/Astar/build-clangd/CMakeFiles/CMakeScratch/TryCompile-t7it3y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_99497
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCHECK_FUNCTION_EXISTS=pthread_create -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_99497.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_99497.dir\\ /FS -c D:\\Code\\Astar\\build-clangd\\CMakeFiles\\CMakeScratch\\TryCompile-t7it3y\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_99497.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_99497.dir\\CheckFunctionExists.c.obj  /out:cmTC_99497.exe /implib:cmTC_99497.lib /pdb:cmTC_99497.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_99497.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_99497.dir --rc=rc --mt="C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_99497.dir\\CheckFunctionExists.c.obj  /out:cmTC_99497.exe /implib:cmTC_99497.lib /pdb:cmTC_99497.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_99497.dir\\CheckFunctionExists.c.obj /out:cmTC_99497.exe /implib:cmTC_99497.lib /pdb:cmTC_99497.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_99497.dir/intermediate.manifest CMakeFiles\\cmTC_99497.dir/manifest.res" failed (exit code 1104) with the following output:\x0d
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
