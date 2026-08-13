@@ -1,4 +1,3 @@
-#include <algorithm>
 #include <array>
 #include <limits>
 #include <optional>
@@ -57,21 +56,20 @@ void reset_cameFrom(Grid<std::optional<GridPos>> &cameFrom) {
     }
 }
 
-void reset_closed(Grid<bool> &closed) {
-    for (auto &closedRow : closed) {
-        closedRow.fill(false);
+void reset_grid_bool(Grid<bool> &grid_bool) {
+    for (auto &grid_row : grid_bool) {
+        grid_row.fill(false);
     }
 }
 void reset_all_state(Grid<int> &score, Grid<std::optional<GridPos>> &cameFrom,
-                     std::priority_queue<OpenNode> &openSet, Grid<bool> &closed,
+                     std::priority_queue<OpenNode> &openSet, Grid<bool> &closed,Grid<bool>& path,
                      const std::optional<GridPos> &s,
-                     const std::optional<GridPos> &g,
-                     std::vector<GridPos>& shortestPath) {
+                     const std::optional<GridPos> &g) {
     reset_gScore(score, s);
     reset_cameFrom(cameFrom);
-    reset_closed(closed);
+    reset_grid_bool(closed);
+    reset_grid_bool(path);
     openSet = {};
-    shortestPath.clear();
     if (s != std::nullopt && g != std::nullopt) {
         int hs = heuristic(s.value(), g.value());
         openSet.emplace(s.value(), score[s->row][s->col] + hs, hs);
@@ -91,18 +89,29 @@ int main() {
     Grid<int> gScore{};
     Grid<std::optional<GridPos>> cameFrom;
     Grid<bool> closed{};
-    std::vector<GridPos> shortestPath;
+    Grid<bool> path{};
     reset_gScore(gScore, std::nullopt);
     reset_cameFrom(cameFrom);
-    reset_closed(closed);
+    reset_grid_bool(closed);
+    reset_grid_bool(path);
     std::optional<GridPos> s = std::nullopt;
     std::optional<GridPos> g = std::nullopt;
 
     std::priority_queue<OpenNode> openSet{};
 
     bool blockLeftDrawUntilRelease = false;
+    bool showScores = false;
+
+    // Timer
+    float searchTimer = 0.f;
+    constexpr float searchInterval = 0.1f;
 
     while (!WindowShouldClose()) {
+        searchTimer += GetFrameTime();
+        if (IsKeyPressed(KEY_D)) {
+            showScores = !showScores;
+        }
+
         Vector2 mouse = GetMousePosition();
         if (IsMouseButtonReleased(MOUSE_LEFT_BUTTON)) {
             blockLeftDrawUntilRelease = false;
@@ -157,7 +166,7 @@ int main() {
                 state_change = true;
             }
             if (state_change) {
-                reset_all_state(gScore, cameFrom, openSet, closed, s, g, shortestPath);
+                reset_all_state(gScore, cameFrom, openSet, closed, path, s, g);
                 if (s != std::nullopt && g != std::nullopt) {
                     sp = SearchPeriod::Searching;
                 }
@@ -168,7 +177,8 @@ int main() {
                closed[openSet.top().pos.row][openSet.top().pos.col]) {
             openSet.pop();
         }
-        if (sp == SearchPeriod::Searching && !openSet.empty()) {
+        if (sp == SearchPeriod::Searching && !openSet.empty() && searchTimer > searchInterval) {
+            searchTimer = 0.f;
             auto p = openSet.top();
             openSet.pop();
             if (p.pos == g.value()) {
@@ -177,7 +187,7 @@ int main() {
                 GridPos cur = g.value();
                 while (cur != s.value()) {
                     auto t = cameFrom[cur.row][cur.col].value();
-                    shortestPath.emplace_back(t);
+                    path[t.row][t.col] = true;
                     cur = t;
                 }
             } else {
@@ -205,6 +215,8 @@ int main() {
         ClearBackground(BLACK);
         DrawText("Left: draw wall     Right: erase", OFFSET_X, 20, 20,
                  RAYWHITE);
+        DrawText(showScores ? "[D] G scores: ON" : "[D] G scores: OFF", 650,
+                 20, 20, showScores ? GREEN : LIGHTGRAY);
 
         for (int row = 0; row < ROWS; row++) {
             for (int col = 0; col < COLS; col++) {
@@ -214,17 +226,34 @@ int main() {
                                static_cast<float>(CELL_SIZE)};
 
                 Color c = GetCellColor(grid[row][col]);
+                Color scoreColor = BLACK;
                 if (s != std::nullopt && row == s->row && col == s->col) {
                     c = GREEN;
+                    scoreColor = RAYWHITE;
                 } else if (g != std::nullopt && row == g->row &&
                            col == g->col) {
                     c = RED;
-                } else if (shortestPath.end() != std::find(shortestPath.begin(), shortestPath.end(), GridPos{row, col})) {
+                    scoreColor = RAYWHITE;
+                } else if (path[row][col]) {
                     c = YELLOW;
                 } else if (closed[row][col]) {
                     c = PURPLE;
+                    scoreColor = RAYWHITE;
                 }
                 DrawRectangleRec(rect, c);
+                if (showScores &&
+                    gScore[row][col] != std::numeric_limits<int>::max()) {
+                    constexpr int scoreFontSize = 20;
+                    const char *scoreText = TextFormat("%d", gScore[row][col]);
+                    const int scoreWidth =
+                        MeasureText(scoreText, scoreFontSize);
+                    DrawText(scoreText,
+                             static_cast<int>(rect.x +
+                                              (rect.width - scoreWidth) / 2),
+                             static_cast<int>(rect.y +
+                                              (rect.height - scoreFontSize) / 2),
+                             scoreFontSize, scoreColor);
+                }
                 DrawRectangleLinesEx(rect, 1.0F, GRAY);
             }
         }
