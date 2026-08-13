@@ -6,7 +6,7 @@
 
 constexpr int ROWS = 20;
 constexpr int COLS = 30;
-constexpr int CELL_SIZE = 40;
+constexpr int CELL_SIZE = 60;
 constexpr int OFFSET_X = 0;
 constexpr int OFFSET_Y = 60;
 

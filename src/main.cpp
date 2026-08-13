@@ -1,5 +1,4 @@
 #include <array>
-#include <functional>
 #include <limits>
 #include <optional>
 #include <queue>
@@ -11,6 +10,13 @@
 struct OpenNode {
     GridPos pos;
     int fScore;
+};
+
+enum class SearchPeriod {
+    Unready,
+    Searching,
+    Found,
+    NoPath,
 };
 
 bool operator<(const OpenNode &a, const OpenNode &b) {
@@ -46,12 +52,18 @@ void reset_cameFrom(Grid<std::optional<GridPos>> &cameFrom) {
     }
 }
 
+void reset_closed(Grid<bool> &closed) {
+    for (auto &closedRow : closed) {
+        closedRow.fill(false);
+    }
+}
 void reset_all_state(Grid<int> &score, Grid<std::optional<GridPos>> &cameFrom,
-                     std::priority_queue<OpenNode> &openSet,
+                     std::priority_queue<OpenNode> &openSet, Grid<bool> &closed,
                      const std::optional<GridPos> &s,
                      const std::optional<GridPos> &g) {
     reset_gScore(score, s);
     reset_cameFrom(cameFrom);
+    reset_closed(closed);
     openSet = {};
     if (s != std::nullopt && g != std::nullopt) {
         openSet.emplace(s.value(), score[s->row][s->col] +
@@ -64,18 +76,22 @@ int main() {
     constexpr int windowHeight = ROWS * CELL_SIZE + OFFSET_Y;
     InitWindow(windowWidth, windowHeight, "A* Visualizer");
 
-    SetTargetFPS(120);
+    SetTargetFPS(10);
     //---------------------------------//
 
+    SearchPeriod sp = SearchPeriod::Unready;
     Grid<CellState> grid{};
     Grid<int> gScore{};
     Grid<std::optional<GridPos>> cameFrom;
+    Grid<bool> closed{};
     reset_gScore(gScore, std::nullopt);
     reset_cameFrom(cameFrom);
+    reset_closed(closed);
     std::optional<GridPos> s = std::nullopt;
     std::optional<GridPos> g = std::nullopt;
 
     std::priority_queue<OpenNode> openSet{};
+
     bool blockLeftDrawUntilRelease = false;
 
     while (!WindowShouldClose()) {
@@ -98,25 +114,29 @@ int main() {
             const bool placeStart = leftPressed && IsKeyDown(KEY_S);
             const bool placeGoal = leftPressed && IsKeyDown(KEY_G);
 
+            bool state_change = false;
             if (placeStart) {
                 blockLeftDrawUntilRelease = true;
                 if (!(g != std::nullopt && g == GridPos{row, col})) {
                     s = {row, col};
-                    reset_all_state(gScore, cameFrom, openSet, s, g);
                     grid[row][col] = CellState::Empty;
+                    state_change = true;
                 }
             } else if (placeGoal) {
                 blockLeftDrawUntilRelease = true;
                 if (!(s != std::nullopt && s == GridPos{row, col})) {
                     g = {row, col};
-                    reset_all_state(gScore, cameFrom, openSet, s, g);
                     grid[row][col] = CellState::Empty;
+                    state_change = true;
                 }
             } else if (leftDown && !blockLeftDrawUntilRelease &&
-                       s != GridPos{row, col} && g != GridPos{row, col}) {
-                reset_all_state(gScore, cameFrom, openSet, s, g);
+                       s != GridPos{row, col} && g != GridPos{row, col} &&
+                       grid[row][col] != CellState::Wall) {
                 grid[row][col] = CellState::Wall;
-            } else if (rightDown) {
+                state_change = true;
+            } else if (rightDown &&
+                       (s == GridPos{row, col} || g == GridPos{row, col} ||
+                        grid[row][col] == CellState::Wall)) {
                 if (s != std::nullopt && s == GridPos{row, col}) {
                     s = std::nullopt;
                 }
@@ -124,8 +144,44 @@ int main() {
                     g = std::nullopt;
                 }
                 grid[row][col] = CellState::Empty;
-                reset_all_state(gScore, cameFrom, openSet, s, g);
+                state_change = true;
             }
+            if (state_change) {
+                reset_all_state(gScore, cameFrom, openSet, closed, s, g);
+                if (s != std::nullopt && g != std::nullopt) {
+                    sp = SearchPeriod::Searching;
+                }
+            }
+        }
+
+        while (!openSet.empty() &&
+               closed[openSet.top().pos.row][openSet.top().pos.col]) {
+            openSet.pop();
+        }
+        if (sp == SearchPeriod::Searching && !openSet.empty()) {
+            auto p = openSet.top();
+            openSet.pop();
+            if (p.pos == g.value()) {
+                sp = SearchPeriod::Found;
+                openSet = {};
+            } else {
+                closed[p.pos.row][p.pos.col] = true;
+                auto nb = get_neighbors(grid, p.pos);
+                for (auto &grid_pos : nb) {
+                    // 需要注意要累计之前的gScore
+                    int g_score = gScore[p.pos.row][p.pos.col] +
+                                  heuristic(grid_pos, p.pos);
+                    int h_score = heuristic(grid_pos, g.value());
+                    // 如果小于之前的可到达分数,更新下
+                    if (g_score < gScore[grid_pos.row][grid_pos.col]) {
+                        gScore[grid_pos.row][grid_pos.col] = g_score;
+                        openSet.emplace(grid_pos, g_score + h_score);
+                        cameFrom[grid_pos.row][grid_pos.col] = p.pos;
+                    }
+                }
+            }
+        }else if (sp == SearchPeriod::Searching && openSet.empty()) {
+            sp = SearchPeriod::NoPath;
         }
 
         BeginDrawing();
@@ -147,6 +203,8 @@ int main() {
                 } else if (g != std::nullopt && row == g->row &&
                            col == g->col) {
                     c = RED;
+                } else if (closed[row][col]) {
+                    c = PURPLE;
                 }
                 DrawRectangleRec(rect, c);
                 DrawRectangleLinesEx(rect, 1.0F, GRAY);
