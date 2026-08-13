@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <array>
 #include <limits>
 #include <optional>
@@ -10,6 +11,7 @@
 struct OpenNode {
     GridPos pos;
     int fScore;
+    int hScore;
 };
 
 enum class SearchPeriod {
@@ -20,6 +22,9 @@ enum class SearchPeriod {
 };
 
 bool operator<(const OpenNode &a, const OpenNode &b) {
+    if (a.fScore == b.fScore) {
+        return a.hScore > b.hScore;
+    }
     return a.fScore > b.fScore;
 }
 bool isInsideGrid(const GridPos pos) {
@@ -60,14 +65,16 @@ void reset_closed(Grid<bool> &closed) {
 void reset_all_state(Grid<int> &score, Grid<std::optional<GridPos>> &cameFrom,
                      std::priority_queue<OpenNode> &openSet, Grid<bool> &closed,
                      const std::optional<GridPos> &s,
-                     const std::optional<GridPos> &g) {
+                     const std::optional<GridPos> &g,
+                     std::vector<GridPos>& shortestPath) {
     reset_gScore(score, s);
     reset_cameFrom(cameFrom);
     reset_closed(closed);
     openSet = {};
+    shortestPath.clear();
     if (s != std::nullopt && g != std::nullopt) {
-        openSet.emplace(s.value(), score[s->row][s->col] +
-                                       heuristic(s.value(), g.value()));
+        int hs = heuristic(s.value(), g.value());
+        openSet.emplace(s.value(), score[s->row][s->col] + hs, hs);
     }
 }
 
@@ -76,7 +83,7 @@ int main() {
     constexpr int windowHeight = ROWS * CELL_SIZE + OFFSET_Y;
     InitWindow(windowWidth, windowHeight, "A* Visualizer");
 
-    SetTargetFPS(10);
+    SetTargetFPS(120);
     //---------------------------------//
 
     SearchPeriod sp = SearchPeriod::Unready;
@@ -84,6 +91,7 @@ int main() {
     Grid<int> gScore{};
     Grid<std::optional<GridPos>> cameFrom;
     Grid<bool> closed{};
+    std::vector<GridPos> shortestPath;
     reset_gScore(gScore, std::nullopt);
     reset_cameFrom(cameFrom);
     reset_closed(closed);
@@ -139,15 +147,17 @@ int main() {
                         grid[row][col] == CellState::Wall)) {
                 if (s != std::nullopt && s == GridPos{row, col}) {
                     s = std::nullopt;
+                    sp = SearchPeriod::Unready;
                 }
                 if (g != std::nullopt && g == GridPos{row, col}) {
                     g = std::nullopt;
+                    sp = SearchPeriod::Unready;
                 }
                 grid[row][col] = CellState::Empty;
                 state_change = true;
             }
             if (state_change) {
-                reset_all_state(gScore, cameFrom, openSet, closed, s, g);
+                reset_all_state(gScore, cameFrom, openSet, closed, s, g, shortestPath);
                 if (s != std::nullopt && g != std::nullopt) {
                     sp = SearchPeriod::Searching;
                 }
@@ -164,6 +174,12 @@ int main() {
             if (p.pos == g.value()) {
                 sp = SearchPeriod::Found;
                 openSet = {};
+                GridPos cur = g.value();
+                while (cur != s.value()) {
+                    auto t = cameFrom[cur.row][cur.col].value();
+                    shortestPath.emplace_back(t);
+                    cur = t;
+                }
             } else {
                 closed[p.pos.row][p.pos.col] = true;
                 auto nb = get_neighbors(grid, p.pos);
@@ -175,7 +191,7 @@ int main() {
                     // 如果小于之前的可到达分数,更新下
                     if (g_score < gScore[grid_pos.row][grid_pos.col]) {
                         gScore[grid_pos.row][grid_pos.col] = g_score;
-                        openSet.emplace(grid_pos, g_score + h_score);
+                        openSet.emplace(grid_pos, g_score + h_score, h_score);
                         cameFrom[grid_pos.row][grid_pos.col] = p.pos;
                     }
                 }
@@ -203,6 +219,8 @@ int main() {
                 } else if (g != std::nullopt && row == g->row &&
                            col == g->col) {
                     c = RED;
+                } else if (shortestPath.end() != std::find(shortestPath.begin(), shortestPath.end(), GridPos{row, col})) {
+                    c = YELLOW;
                 } else if (closed[row][col]) {
                     c = PURPLE;
                 }
