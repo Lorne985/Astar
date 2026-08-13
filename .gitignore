@@ -1,0 +1,6 @@
+# CMake and editor-generated files
+/build/
+/build-*/
+/.cache/
+/compile_commands.json
+/.zed/

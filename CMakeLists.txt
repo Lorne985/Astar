@@ -6,15 +6,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# include(FetchContent)
-
-# FetchContent_Declare(
-#     raylib
-#     GIT_REPOSITORY https://github.com/raysan5/raylib.git
-#     GIT_TAG 5.5
-# )
-
-# FetchContent_MakeAvailable(raylib)
+if(NOT EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/external/raylib/CMakeLists.txt")
+  message(FATAL_ERROR
+    "raylib submodule is missing. Run: git submodule update --init --recursive"
+  )
+endif()
 
 add_subdirectory(external/raylib)
 

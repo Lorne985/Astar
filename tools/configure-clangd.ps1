@@ -8,7 +8,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$buildDirectory = Join-Path $projectRoot "build-clangd"
+$buildDirectory = Join-Path $projectRoot "build"
 
 $vswhereCandidates = @(
     (Join-Path ${env:ProgramFiles(x86)} "Microsoft Visual Studio\Installer\vswhere.exe"),
