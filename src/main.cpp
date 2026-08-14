@@ -111,7 +111,14 @@ int main() {
         if (IsKeyPressed(KEY_D)) {
             showScores = !showScores;
         }
-
+        if (IsKeyPressed(KEY_C)) {
+            s = std::nullopt;
+            g = std::nullopt;
+            for (auto& grid_row: grid) {
+                grid_row.fill(CellState::Empty);
+            }
+            reset_all_state(gScore, cameFrom, openSet, closed, path, s, g);
+        }
         Vector2 mouse = GetMousePosition();
         if (IsMouseButtonReleased(MOUSE_LEFT_BUTTON)) {
             blockLeftDrawUntilRelease = false;

@@ -18,4 +18,8 @@ add_executable(astar_visualizer
   src/main.cpp
 )
 
+if(MSVC)
+  target_compile_options(astar_visualizer PRIVATE /utf-8)
+endif()
+
 target_link_libraries(astar_visualizer PRIVATE raylib)
